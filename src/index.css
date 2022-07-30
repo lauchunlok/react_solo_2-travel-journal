@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 550px;
+  
+  
+}
+
+hr {
+  border: 1px solid #F5F5F5;    
+}
+
+
+.navbar {
+  display:flex;
+  flex-direction: row;
+  /* width: 550px; */
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #F55A5A;
+  
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav--logo {
+  width: 24px;
+  height: 24px;
+  left: 213px;
+  top: 16px;
+  margin-right: 7px;
+  margin-bottom: 15px;
+  margin-top: 16px;
+
+}
+
+.navbar > p {
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #FFFFFF;
+}
+
+
+.card {
+  display:flex;
+  flex: row;
+  margin-top: 45px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.card--photo {
+  width: 126px;
+  height: 168px;
+  object-fit: cover;
+  left: 40px;
+  top: 100px;
+  border-radius: 5px;
+  margin-right: 19px;
+  
+  margin-bottom: 18px;
+}
+
+.card--location {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.card--location--logo {
+  width: 7px;
+  height: 9.55px;
+
+  margin-right: 4px;
+
+}
+
+.card--location--country {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+  
+  margin-right: 12px;
+}
+
+.card--location > a {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.card--title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+  
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+  
+  margin-bottom: 9px;
+}
+
+.card--desc {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #2B283A;
+  
+  margin-bottom: 38px;
+}
