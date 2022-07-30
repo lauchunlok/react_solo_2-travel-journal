@@ -10,7 +10,10 @@ export default function Card(props) {
                 <div className="card--details">
                 
                     <div className="card--location">
-                        <img src="../images/location.png" className="card--location--logo" />
+                        <img 
+                            src={process.env.PUBLIC_URL + "/images/location.png"} 
+                            className="card--location--logo" 
+                        />
                         <p className="card--location--country">{props.item.location}</p>
                         <a href={props.item.googleMapsUrl}>View on Google Maps</a>
                     </div>
